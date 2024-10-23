@@ -1,216 +1,22 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Group Meeting of Lingjie's Lab 2024</title>
-	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" type="text/css" href="data/gvv.css">
-	<link rel="stylesheet" type="text/css" href="data/seminar.css">
-
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-	<script type="text/javascript">
-		function togglePapers(o) {
-			$(o).parents('table.topics tr').find('.paper').toggle();
-		}
-
-		function showAllPapers() {
-			$('div.paper').show();
-			$('div.container').show();
-			$('div.comparison').show();
-			$('a.showpapers').hide();
-			$('a.hidepapers').show();
-		}
-
-		function hideAllPapers() {
-			$('div.paper').hide();
-			$('div.container').hide();
-			$('div.comparison').hide();
-			$('a.showpapers').show();
-			$('a.hidepapers').hide();
-		}
-	</script>
-</head>
-
-<body>
-
-	<div id="wrap">
-		<div style="text-align: center">
-			<a href="https://www.upenn.edu/"><img src="./data/penn.png" alt="Logos of UPenn" width="400"></a>
-		</div>
-
-		<h1 style="text-align: center;">Group Meeting of Lingjie's Lab</h1>
-		<h3 style="text-align: center;">PI: <a href="https://lingjie0206.github.io/">Lingjie Liu</a>
-		</h3>
-
-		<br>
-
-		<hr>
-		<h2><a name="topics">Notice</a></h2>
-
-			<ul>
-				<li>
-					<p style="font-size: 14px; line-height: 1.3; margin: 0.5; padding: 0;">
-					Please sign up presentations for our group meeting at 
-					<b><a href="https://docs.google.com/spreadsheets/d/1LLd-Hqw0jHTrLKLUcJs2GVmDwFzx_jSxLkNeXjRSFBQ/edit?usp=sharing">this sheet</a></b>
-					</p> 
-				</li>
-				<li>
-					<p style="font-size: 14px; line-height: 1.3; margin: 0.5; padding: 0;">
-					For those who have presented in our group meetings, please upload your slides to 
-					<b><a href="https://drive.google.com/drive/folders/1HoNnwS4anHjMir1qt5IY0cc1eXOu6UQp?usp=sharing">this folder</a></b>, with the name as 
-					<b>“{Date}_{Title}_{First Name & Last Name}”</b>, for example, 
-					“2024Oct08_ProgressReport_XuyiMeng.pptx”.
-					</p> 
-				</li>
-			</ul>	
-			
-			
-			
-		<hr>
-		<br>
-
-		<table class="topics" border="1">
-			<tr>
-				<th rowspan="2" width="80">Date</th>
-				<th colspan="2" style="text-align: center;">Paper Sharing</th>
-				<th colspan="2" style="text-align: center;">Progress Report</th>
-			</tr>
-
-
-		<!-- format v1 -->
-			<!-- <tr>
-				<th>Slides</th>
-				<th>Name</th>
-				<th>Slides</th>
-				<th>Name</th>
-			</tr>
-
-			<tr>
-				<td rowspan="2" >
-					<a href="YOUR_FOLDER_LINK_HERE">
-						<img src="./data/icon.jpg" alt="Folder Icon" style="width: 20px; height: 20px;">
-					</a>
-				</td>
-				<td rowspan="2" > Yiming Huang</td>
-				<td height="20"></td>
-				<td height="20">Zhiyang Dou</td>
-				<td rowspan="2" align="center"><i>Sep 24, 2024</i></td>
-			</tr>
-			<tr>
-				<td height="20"></td>
-				<td height="20">Chen Wang</td>
-			</tr>
-
-			<tr>
-				<td rowspan="2" ></td>
-				<td rowspan="2" >Heguang Lin</td>
-				<td height="20"></td>
-				<td height="20">Xuyi Meng</td>
-				<td rowspan="2" align="center"><i>Oct 08, 2024</i></td>
-			</tr>
-			<tr>
-				<td height="20"></td>
-				<td height="20">Yiming Huang</td>
-			</tr> -->
-
-		<!-- format v2  -->
-
-			<tr>
-				<th>Paper</th>
-				<th>Name</th>
-				<th>Name 1</th>
-				<th>Name 2</th>
-			</tr>
-
-			<tr>
-				<td align="center"><i>Sep 24, 2024</i></td>
-				<td>
-					<div class="title"><a
-						href="https://www.arxiv.org/abs/2409.03944">
-						HUMOS: Human Motion Model Conditioned on Body Shape
-					</a></div>
-				</td>
-				<td> Yiming Huang
-					<a href="YOUR_FOLDER_LINK_HERE">
-						<img src="./data/icon.jpg" alt="Folder Icon" style="width: 20px; height: 20px;">
-					</a>
-				</td>
-				
-				<td height="20">Zhiyang Dou
-					<a href="https://docs.google.com/presentation/d/1ofk8w1A_OQnVmHkUwcyxP5Vgr_P8k5sW/edit?usp=sharing&ouid=107579799759556819778&rtpof=true&sd=true">
-						<img src="./data/icon.jpg" alt="Folder Icon" style="width: 20px; height: 20px;">
-					</a>
-				</td>
-				<td height="20">Chen Wang
-					<a href="https://docs.google.com/presentation/d/16mQDzG0f7C4yAREmcV6kyJOqMPUt00ss/edit?usp=drive_link&ouid=101671697877703922510&rtpof=true&sd=true">
-						<img src="./data/icon.jpg" alt="Folder Icon" style="width: 20px; height: 20px;">
-					</a>
-				</td>
-				
-			</tr>
-			
-			<tr>
-				<td align="center"><i>Oct 08, 2024</i></td>
-				<td>
-					<div class="title"><a
-						href="https://pup3dgs.github.io/">
-						PUP 3D-GS: Principled Uncertainty Pruning for 3D Gaussian Splatting
-					</a></div>
-				</td>
-				<td> Heguang Lin
-					<a href="https://docs.google.com/presentation/d/1xB7d-frydHQwGF1zYK1aB1RSoeqgc8wg/edit?usp=sharing&ouid=107579799759556819778&rtpof=true&sd=true">
-						<img src="./data/icon.jpg" alt="Folder Icon" style="width: 20px; height: 20px;">
-					</a>
-				</td>
-				
-				<td height="20">Xuyi Meng
-					<a href="https://docs.google.com/presentation/d/1NC0RfQnTFrtly-o9W6NF-RoKZSfeJ38Q/edit?usp=drive_link&ouid=101671697877703922510&rtpof=true&sd=true">
-						<img src="./data/icon.jpg" alt="Folder Icon" style="width: 20px; height: 20px;">
-					</a>
-				</td>
-				<td height="20">Yiming Huang
-					<a href="YOUR_FOLDER_LINK_HERE">
-						<img src="./data/icon.jpg" alt="Folder Icon" style="width: 20px; height: 20px;">
-					</a>
-				</td>
-				
-			</tr>
-
-			<tr>
+<tr>
 				<td align="center"><i>Oct 15, 2024</i></td>
 				<td>
 					<div class="title"><a
-						href="https://mingukkang.github.io/Diffusion2GAN/">
-						Diffusion2GAN: Distilling Diffusion Models into Conditional GANs
+						href="https://arxiv.org/pdf/2410.01425">
+						EVA-Gaussian: 3D Gaussian-based Real-time Human Novel View Synthesis under Diverse Camera Settings
 					</a></div>
 				</td>
-				<td> Chuhao Chen
-					<a href="YOUR_FOLDER_LINK_HERE">
+				<td> Qiao Feng
+					<a href="https://docs.google.com/presentation/d/1YbFjU1bt_kUdchL_LJ0UopxbKxjln6HH/edit?usp=drive_link&ouid=101671697877703922510&rtpof=true&sd=true">
 						<img src="./data/icon.jpg" alt="Folder Icon" style="width: 20px; height: 20px;">
 					</a>
 				</td>
 				
-				<td height="20"> Yunzhou Song
-					<a href="YOUR_FOLDER_LINK_HERE">
+				<td height="20"> Chuhao Chen
+					<a href="https://docs.google.com/presentation/d/1fTuoAlfTr9mIeI8aXJjsGwjGsuRpfOxs/edit?usp=drive_link&ouid=101671697877703922510&rtpof=true&sd=true">
 						<img src="./data/icon.jpg" alt="Folder Icon" style="width: 20px; height: 20px;">
 					</a>
 				</td>
-				<td height="20"> Haodong Li
-					<a href="YOUR_FOLDER_LINK_HERE">
-						<img src="./data/icon.jpg" alt="Folder Icon" style="width: 20px; height: 20px;">
-					</a>
+				<td height="20"> 
 				</td>
 			</tr>
-
-		</table>
-	</div>
-
-	<!-- <div id="footer">
-		The website template and its content refer directly to <a
-			href="https://vcai.mpi-inf.mpg.de/teaching/vcai_seminar_2023/index.html">MPII summer seminar</a> <br>
-	</div> -->
-
-</body>
-
-</html>
